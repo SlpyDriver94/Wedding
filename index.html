@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matrimonio Richi e Chiara</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Cormorant+Garamond:wght@400;500;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        background: linear-gradient(135deg, #fff8fa, #f6f9f6);
+        font-family: 'Poppins', sans-serif;
+        color: #333;
+    }
+
+    .container {
+        max-width: 640px;
+        margin: auto;
+        padding: 30px 20px 70px 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 40px 30px;
+        border-radius: 26px;
+        box-shadow: 0 18px 40px rgba(0,0,0,0.06);
+        margin-bottom: 28px;
+        position: relative;
+    }
+
+    .card:before {
+        content: "";
+        position: absolute;
+        top: 18px;
+        left: 18px;
+        right: 18px;
+        bottom: 18px;
+        border: 1px solid #f1e4e8;
+        border-radius: 20px;
+        pointer-events: none;
+    }
+
+    .flowers {
+        text-align: center;
+        font-size: 22px;
+        opacity: 0.7;
+        margin-bottom: 10px;
+    }
+
+    .invite-text {
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        color: #777;
+        margin-bottom: 12px;
+    }
+
+    .names {
+        font-family: 'Playfair Display', serif;
+        font-size: 34px;
+        text-align: center;
+        color: #3e5c3e;
+        margin-bottom: 8px;
+        letter-spacing: 0.5px;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        color: #777;
+        margin-bottom: 28px;
+    }
+
+    .divider {
+        width: 70px;
+        height: 1px;
+        background: #e6d8dd;
+        margin: 20px auto;
+    }
+
+    .info {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: #555;
+    }
+
+    .section-title {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        color: #3e5c3e;
+        margin-bottom: 18px;
+    }
+
+    .btn {
+        background: #6f9b6f;
+        color: white;
+        border: none;
+        padding: 13px;
+        border-radius: 16px;
+        font-size: 14px;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        margin-top: 12px;
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        background: #5c875c;
+        transform: scale(1.02);
+    }
+
+    .btn-secondary {
+        background: #e8dce0;
+        color: #555;
+    }
+
+    .btn-secondary:hover {
+        background: #e0d0d6;
+    }
+
+    .iban-box {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .iban-input {
+        padding: 13px;
+        border-radius: 14px;
+        border: 1px solid #eadde2;
+        text-align: center;
+        font-size: 14px;
+        background: #fff7f9;
+    }
+
+    .message {
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        color: #777;
+        margin-top: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 13px;
+        color: #999;
+    }
+
+    .success {
+        text-align: center;
+        margin-top: 10px;
+        color: #2f7a2f;
+        font-size: 14px;
+        display: none;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- INVITO PRINCIPALE -->
+    <div class="card">
+
+        <div class="flowers">🌸🌿🌸</div>
+
+        <div class="invite-text">Siamo felici di invitarvi al matrimonio di</div>
+
+        <div class="names">Richi & Chiara</div>
+
+        <div class="subtitle">che si terrà il giorno</div>
+
+        <div class="divider"></div>
+
+        <div class="info">Sabato 21 Giugno 2026</div>
+        <div class="info">Cerimonia ore 11:30 (si chiede gentilmente di presentarsi con circa 30 minuti di anticipo)</div>
+        <div class="info">Basilica Santissimo Salvatore – Pavia</div>
+
+        <div class="divider"></div>
+
+        <div class="info">Ricevimento</div>
+        <div class="info">Trattoria Quaglini – Borgo Priolo</div>
+
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Basilica+Santissimo+Salvatore+Pavia" target="_blank">Apri la chiesa su Google Maps</a>
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Trattoria+Quaglini+Borgo+Priolo" target="_blank">Apri il ricevimento su Google Maps</a>
+
+        <div class="message">
+            Non vediamo l’ora di festeggiare questo giorno speciale insieme a voi ❤️
+        </div>
+
+    </div>
+
+
+    <!-- CONFERMA PRESENZA -->
+    <div class="card">
+        <div class="section-title">Conferma la tua presenza</div>
+
+        <div class="info">Clicca qui sotto per confermare la tua presenza. Il tuo nome verrà inserito automaticamente.</div>
+
+        <!-- SOSTITUISCI SOLO IL LINK QUI SOTTO CON IL LINK PRECOMPILATO DEL GOOGLE FORM -->
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdJ52zxoGmaZXEiEPyL3Z9e4GRxSTRAIpKRyYPvOMGTyg0EHg/viewform?usp=pp_url&entry.834112955=Mario+Rossi&entry.1244889800=Si" target="_blank">Conferma presenza</a>
+
+        <div class="message" style="font-size:16px; margin-top:15px;">
+            Se cambi idea puoi riaprire il link e inviare una nuova risposta 💚
+        </div>
+    </div>
+
+
+    <!-- CALENDARIO -->
+    <div class="card">
+        <div class="section-title">Aggiungi al calendario</div>
+
+        <a class="btn" target="_blank"
+        href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Matrimonio+Richi+%26+Chiara&dates=20260621T093000Z/20260621T160000Z&details=Matrimonio+Richi+e+Chiara+-+Cerimonia+ore+11:30&location=Basilica+Santissimo+Salvatore+Pavia">
+        Aggiungi al calendario in 1 click
+        </a>
+    </div>
+
+    <!-- DONAZIONE -->
+    <div class="card">
+        <div class="section-title">Lista nozze</div>
+
+        <div class="iban-box">
+            <input class="iban-input" id="iban" value="INSERISCI QUI IL TUO IBAN" readonly>
+            <button class="btn" onclick="copyIBAN()">Copia IBAN</button>
+        </div>
+
+        <div class="success" id="copySuccess">IBAN copiato negli appunti!</div>
+    </div>
+
+
+    <div class="footer">
+        Richi & Chiara 🌸🌿
+    </div>
+
+</div>
+
+<script>
+
+function copyIBAN() {
+    const iban = document.getElementById("iban");
+    iban.select();
+    iban.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+
+    document.getElementById("copySuccess").style.display = "block";
+}
+
+</script>
+
+</body>
+</html>
