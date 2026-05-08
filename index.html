@@ -43,6 +43,7 @@
 
   --f-display:  'Cormorant Garamond', 'Baskerville', Georgia, serif;
   --f-body:     'EB Garamond', 'Garamond', Georgia, serif;
+  --f-iban:     'Arial', Helvetica, sans-serif; 
 
   --rail-w-d:   110px;
   --rail-w-m:   48px;
@@ -742,11 +743,10 @@ section {
   margin-bottom: 14px;
 }
 .iban-value {
-  font-family: var(--f-display);
+  font-family: var(--f-iban);
   font-size: clamp(16px, 2vw, 20px);
   color: var(--ink);
   letter-spacing: 0.04em;
-  cursor: pointer;
   margin-bottom: 22px;
   word-break: break-all;
 }
@@ -1080,7 +1080,7 @@ Se desiderate accompagnarci anche nell’inizio del nostro viaggio insieme, un c
 <!-- ═══ AGGIUNGI AL CALENDARIO ═══ -->
 <div class="cal-section reveal">
   <div class="eyebrow" style="justify-content: center; margin-bottom: 16px;">Promemoria</div>
-  <p style="font-family: var(--f-display); font-style: italic; font-size: 18px; color: var(--muted);">Se volete potete aggiungere la data al vostro calendario</p>
+  <p style="font-family: var(--f-display); font-style: italic; font-size: 18px; color: var(--muted);">Se volete, potete aggiungere la data al vostro calendario</p>
   <button class="cal-btn" onclick="downloadICS()">
     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
     Aggiungi al calendario
