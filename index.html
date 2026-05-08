@@ -934,7 +934,7 @@ footer .rose {
     <li><a href="#storia"    onclick="closeMenu()">Evento</a></li>
     <li><a href="#programma" onclick="closeMenu()">Programma</a></li>
     <li><a href="#location"  onclick="closeMenu()">Location</a></li>
-    <li><a href="#nozze"     onclick="closeMenu()">Offerta</a></li>
+    <li><a href="#nozze"     onclick="closeMenu()">Regalo di nozze</a></li>
     <li><a href="#rsvp"      onclick="closeMenu()">Risposta</a></li>
   </ul>
   <div class="overlay-date">20 · 06 · 2026 &nbsp;·&nbsp; Pavia</div>
@@ -981,9 +981,10 @@ footer .rose {
     <div class="orn small orn-blue"><i></i></div>
   </div>
   <div class="storia-inner">
-    <p class="reveal">Il 20 giugno 2026 ci sposiamo. Dopo anni insieme, momenti condivisi e un futuro che non vediamo l'ora di costruire — eccoci qui, pronti a pronunciare il nostro sì.</p>
-    <p class="reveal">Volevamo festeggiarlo con le persone che amiamo di più, quelle che hanno fatto parte di questa storia. Siete voi.</p>
-    <p class="reveal finale">Vi aspettiamo — con gioia, con emozione, con tutto il cuore.</p>
+   <p class="reveal">Come già saprete, il 20 giugno 2026 ci sposeremo. È un evento così importante che persino il Papa verrà a Pavia a fare un giro.</p>
+   <p class="reveal">Sono stati 8 anni indimenticabili che, nel bene e nel male, ci hanno fatto crescere sia come persone sia come coppia. Le costanti di questo percorso sono sempre state il nostro amore reciproco e la vostra presenza, fondamentale nel darci il supporto necessario per affrontare la quotidianità.</p>
+   <p class="reveal">Per questo vogliamo festeggiare questo momento insieme a voi: le persone che amiamo di più e che hanno fatto parte della nostra storia.</p>
+   <p class="reveal finale">Vi aspettiamo con gioia per celebrare insieme il coronamento del nostro percorso e l’inizio di un nuovo capitolo.</p>
   </div>
 </section>
 
@@ -1007,12 +1008,8 @@ footer .rose {
       </div>
       <div class="tl-content">
         <div class="tl-time">ore 11:30</div>
-        <div class="tl-title">Cerimonia</div>
-        <p class="tl-desc">Il momento più atteso: ci sposiamo nella Basilica Santissimo Salvatore, nel cuore di Pavia. Vi chiediamo di arrivare con circa 30 minuti di anticipo.</p>
-        <a class="tl-maps" href="https://www.google.com/maps/search/?api=1&query=Basilica+Santissimo+Salvatore+Pavia" target="_blank">
-          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-          Basilica Santissimo Salvatore, Pavia
-        </a>
+        <div class="tl-title">Inizio Cerimonia</div>
+        <p class="tl-desc">La cerimonia si terrà nella Basilica Santissimo Salvatore. Vi chiediamo di arrivare con circa 15 minuti di anticipo.</p>
       </div>
     </div>
 
@@ -1024,11 +1021,7 @@ footer .rose {
       <div class="tl-content">
         <div class="tl-time">dopo la cerimonia</div>
         <div class="tl-title">Ricevimento</div>
-        <p class="tl-desc">Ci spostiamo alla Trattoria Quaglini, in località Schizzola Alta. Vi aspettano buon cibo, brindisi e tanta allegria.</p>
-        <a class="tl-maps" href="https://www.google.com/maps/search/?api=1&query=Trattoria+Quaglini+Borgo+Priolo" target="_blank">
-          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-          Trattoria Quaglini — Loc. Schizzola Alta
-        </a>
+        <p class="tl-desc">Ci ritroveremo alla Trattoria Quaglini, in località Schizzola Alta, per continuare insieme i festeggiamenti immersi nelle colline dell’Oltrepò Pavese, tra buon cibo, vino e convivialità.</p>
       </div>
     </div>
 
@@ -1069,14 +1062,15 @@ footer .rose {
 <!-- ═══ LISTA NOZZE ═══ -->
 <section id="nozze" class="nozze">
   <div class="section-head reveal">
-    <h2 class="h-section italic">Offerta</h2>
+    <h2 class="h-section italic">Regalo di nozze</h2>
     <div class="orn small"><i></i></div>
   </div>
   <div class="nozze-inner">
-    <p class="reveal">La vostra presenza è già il regalo più bello che potremmo ricevere. Se volete farci un dono, un contributo per il nostro viaggio di nozze ci renderà felicissimi.</p>
+    <p class="reveal">Condividere con voi emozioni, sorrisi e ricordi di questa giornata sarà per noi il dono più prezioso.
+Se desiderate accompagnarci anche nell’inizio del nostro viaggio insieme, un contributo sarà per noi un pensiero davvero speciale ❤️</p>
     <div class="iban-box reveal">
       <div class="iban-label">IBAN</div>
-      <div class="iban-value" id="iban-val" onclick="copyIBAN()">INSERISCI QUI IL TUO IBAN</div>
+      <div class="iban-value" id="iban-val">IT65M0338501601100081404714</div>
       <button class="iban-copy-btn" onclick="copyIBAN()">Copia IBAN</button>
       <div class="iban-feedback" id="iban-feedback"></div>
     </div>
@@ -1086,7 +1080,7 @@ footer .rose {
 <!-- ═══ AGGIUNGI AL CALENDARIO ═══ -->
 <div class="cal-section reveal">
   <div class="eyebrow" style="justify-content: center; margin-bottom: 16px;">Promemoria</div>
-  <p style="font-family: var(--f-display); font-style: italic; font-size: 18px; color: var(--muted);">Non dimenticarti di segnare la data in calendario</p>
+  <p style="font-family: var(--f-display); font-style: italic; font-size: 18px; color: var(--muted);">Se volete potete aggiungere la data al vostro calendario</p>
   <button class="cal-btn" onclick="downloadICS()">
     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
     Aggiungi al calendario
@@ -1098,7 +1092,7 @@ footer .rose {
   <div class="section-head">
     <h2 class="h-section italic">Risposta</h2>
     <div class="orn small"><i></i></div>
-    <p class="sub">Confermate la vostra presenza qui sotto. Sapervi lì è già un regalo immenso.</p>
+    <p class="sub">Confermate la vostra presenza qui sotto.</p>
     <div class="rsvp-deadline">— vi aspettiamo il 20 Giugno 2026 —</div>
   </div>
 
@@ -1119,12 +1113,11 @@ footer .rose {
       Caricamento…
     </iframe>
   </div>
-  <p class="form-note">Problemi con il form? Scrivici direttamente.</p>
 </section>
 
 <!-- ═══ FOOTER ═══ -->
 <footer>
-  <div class="amore">con tutto il nostro amore</div>
+  <div class="amore">con tutto il nostro affetto</div>
   <div class="rc">R <span class="rose">&amp;</span> C</div>
   <div class="orn" style="margin-top: 28px;"><i></i></div>
   <div class="meta">20 · 06 · 2026 &nbsp;·&nbsp; Pavia</div>
@@ -1393,7 +1386,7 @@ function downloadICS() {
     'BEGIN:VALARM',
     'TRIGGER:-P7D',
     'ACTION:DISPLAY',
-    'DESCRIPTION:Matrimonio Richi & Chiara tra 7 giorni!',
+    'DESCRIPTION:',
     'END:VALARM',
     'END:VEVENT',
     'END:VCALENDAR'
